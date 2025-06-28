@@ -1,0 +1,52 @@
+<svg width="800" height="500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <!-- 背景 -->
+  <rect width="800" height="500" rx="8" fill="#ffffff" stroke="#dddddd" stroke-width="2"/>
+  
+  <!-- 标题 -->
+  <text x="40" y="50" font-family="Arial" font-size="24" font-weight="bold" fill="#333333">Python 版本管理</text>
+  
+  <!-- 说明文字 -->
+  <text x="40" y="80" font-family="Arial" font-size="14" fill="#666666">管理已安装的 Python 版本，设置全局默认版本</text>
+  
+  <!-- 版本列表表头 -->
+  <rect x="40" y="100" width="720" height="40" rx="4" fill="#f5f5f5"/>
+  <text x="70" y="125" font-family="Arial" font-size="14" font-weight="bold" fill="#333333">版本</text>
+  <text x="300" y="125" font-family="Arial" font-size="14" font-weight="bold" fill="#333333">安装路径</text>
+  <text x="560" y="125" font-family="Arial" font-size="14" font-weight="bold" fill="#333333">状态</text>
+  <text x="690" y="125" font-family="Arial" font-size="14" font-weight="bold" fill="#333333">操作</text>
+  
+  <!-- 版本列表项 -->
+  <rect x="40" y="150" width="720" height="60" rx="4" fill="#ffffff" stroke="#e6f0ff" stroke-width="2"/>
+  <text x="70" y="185" font-family="Arial" font-size="16" fill="#333333">Python 3.10.0</text>
+  <text x="300" y="185" font-family="Arial" font-size="14" fill="#666666">C:\Python310</text>
+  <rect x="560" y="165" width="80" height="30" rx="15" fill="#4a86e8"/>
+  <text x="600" y="185" font-family="Arial" font-size="12" fill="white" text-anchor="middle">默认</text>
+  <rect x="670" y="165" width="80" height="30" rx="4" fill="#ffffff" stroke="#4a86e8" stroke-width="1"/>
+  <text x="710" y="185" font-family="Arial" font-size="12" fill="#4a86e8" text-anchor="middle">管理</text>
+  
+  <rect x="40" y="220" width="720" height="60" rx="4" fill="#ffffff" stroke="#dddddd" stroke-width="1"/>
+  <text x="70" y="255" font-family="Arial" font-size="16" fill="#333333">Python 3.9.7</text>
+  <text x="300" y="255" font-family="Arial" font-size="14" fill="#666666">C:\Python39</text>
+  <rect x="560" y="235" width="80" height="30" rx="15" fill="#dddddd"/>
+  <text x="600" y="255" font-family="Arial" font-size="12" fill="#666666" text-anchor="middle">已安装</text>
+  <rect x="670" y="235" width="80" height="30" rx="4" fill="#ffffff" stroke="#4a86e8" stroke-width="1"/>
+  <text x="710" y="255" font-family="Arial" font-size="12" fill="#4a86e8" text-anchor="middle">管理</text>
+  
+  <rect x="40" y="290" width="720" height="60" rx="4" fill="#ffffff" stroke="#dddddd" stroke-width="1"/>
+  <text x="70" y="325" font-family="Arial" font-size="16" fill="#333333">Python 3.8.12</text>
+  <text x="300" y="325" font-family="Arial" font-size="14" fill="#666666">C:\Python38</text>
+  <rect x="560" y="305" width="80" height="30" rx="15" fill="#dddddd"/>
+  <text x="600" y="325" font-family="Arial" font-size="12" fill="#666666" text-anchor="middle">已安装</text>
+  <rect x="670" y="305" width="80" height="30" rx="4" fill="#ffffff" stroke="#4a86e8" stroke-width="1"/>
+  <text x="710" y="325" font-family="Arial" font-size="12" fill="#4a86e8" text-anchor="middle">管理</text>
+  
+  <!-- 按钮 -->
+  <rect x="40" y="380" width="160" height="40" rx="20" fill="#4a86e8"/>
+  <text x="120" y="405" font-family="Arial" font-size="14" fill="white" text-anchor="middle">安装新版本</text>
+  
+  <rect x="210" y="380" width="160" height="40" rx="20" fill="#ffffff" stroke="#ff6058" stroke-width="1"/>
+  <text x="290" y="405" font-family="Arial" font-size="14" fill="#ff6058" text-anchor="middle">卸载选中版本</text>
+  
+  <rect x="380" y="380" width="160" height="40" rx="20" fill="#ffffff" stroke="#4a86e8" stroke-width="1"/>
+  <text x="460" y="405" font-family="Arial" font-size="14" fill="#4a86e8" text-anchor="middle">设为默认</text>
+</svg> 

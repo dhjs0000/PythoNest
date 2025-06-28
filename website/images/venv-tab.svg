@@ -1,0 +1,53 @@
+<svg width="800" height="500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <!-- 背景 -->
+  <rect width="800" height="500" rx="8" fill="#ffffff" stroke="#dddddd" stroke-width="2"/>
+  
+  <!-- 标题 -->
+  <text x="40" y="50" font-family="Arial" font-size="24" font-weight="bold" fill="#333333">虚拟环境管理</text>
+  
+  <!-- 说明文字 -->
+  <text x="40" y="80" font-family="Arial" font-size="14" fill="#666666">创建和管理Python虚拟环境</text>
+  
+  <!-- 虚拟环境列表表头 -->
+  <rect x="40" y="100" width="720" height="40" rx="4" fill="#f5f5f5"/>
+  <text x="70" y="125" font-family="Arial" font-size="14" font-weight="bold" fill="#333333">环境名称</text>
+  <text x="300" y="125" font-family="Arial" font-size="14" font-weight="bold" fill="#333333">Python版本</text>
+  <text x="500" y="125" font-family="Arial" font-size="14" font-weight="bold" fill="#333333">路径</text>
+  <text x="690" y="125" font-family="Arial" font-size="14" font-weight="bold" fill="#333333">操作</text>
+  
+  <!-- 虚拟环境列表项 -->
+  <rect x="40" y="150" width="720" height="60" rx="4" fill="#ffffff" stroke="#e6f0ff" stroke-width="2"/>
+  <text x="70" y="185" font-family="Arial" font-size="16" fill="#333333">project_env</text>
+  <text x="300" y="185" font-family="Arial" font-size="14" fill="#666666">Python 3.10.0</text>
+  <text x="500" y="185" font-family="Arial" font-size="14" fill="#666666">C:\Projects\project_env</text>
+  <rect x="670" y="165" width="80" height="30" rx="4" fill="#ffffff" stroke="#4a86e8" stroke-width="1"/>
+  <text x="710" y="185" font-family="Arial" font-size="12" fill="#4a86e8" text-anchor="middle">激活</text>
+  
+  <rect x="40" y="220" width="720" height="60" rx="4" fill="#ffffff" stroke="#dddddd" stroke-width="1"/>
+  <text x="70" y="255" font-family="Arial" font-size="16" fill="#333333">data_science</text>
+  <text x="300" y="255" font-family="Arial" font-size="14" fill="#666666">Python 3.9.7</text>
+  <text x="500" y="255" font-family="Arial" font-size="14" fill="#666666">C:\Projects\data_science</text>
+  <rect x="670" y="235" width="80" height="30" rx="4" fill="#ffffff" stroke="#4a86e8" stroke-width="1"/>
+  <text x="710" y="255" font-family="Arial" font-size="12" fill="#4a86e8" text-anchor="middle">激活</text>
+  
+  <rect x="40" y="290" width="720" height="60" rx="4" fill="#ffffff" stroke="#dddddd" stroke-width="1"/>
+  <text x="70" y="325" font-family="Arial" font-size="16" fill="#333333">web_dev</text>
+  <text x="300" y="325" font-family="Arial" font-size="14" fill="#666666">Python 3.8.12</text>
+  <text x="500" y="325" font-family="Arial" font-size="14" fill="#666666">C:\Projects\web_dev</text>
+  <rect x="670" y="305" width="80" height="30" rx="4" fill="#ffffff" stroke="#4a86e8" stroke-width="1"/>
+  <text x="710" y="325" font-family="Arial" font-size="12" fill="#4a86e8" text-anchor="middle">激活</text>
+  
+  <!-- 创建新虚拟环境区域 -->
+  <rect x="40" y="380" width="720" height="100" rx="8" fill="#f5f5f5"/>
+  <text x="60" y="405" font-family="Arial" font-size="16" font-weight="bold" fill="#333333">创建新虚拟环境</text>
+  
+  <text x="60" y="435" font-family="Arial" font-size="14" fill="#333333">名称:</text>
+  <rect x="110" y="420" width="150" height="30" rx="4" fill="#ffffff" stroke="#dddddd" stroke-width="1"/>
+  
+  <text x="280" y="435" font-family="Arial" font-size="14" fill="#333333">Python版本:</text>
+  <rect x="370" y="420" width="150" height="30" rx="4" fill="#ffffff" stroke="#dddddd" stroke-width="1"/>
+  <text x="390" y="440" font-family="Arial" font-size="14" fill="#666666">3.10.0</text>
+  
+  <rect x="600" y="420" width="120" height="30" rx="15" fill="#4a86e8"/>
+  <text x="660" y="440" font-family="Arial" font-size="14" fill="white" text-anchor="middle">创建</text>
+</svg> 

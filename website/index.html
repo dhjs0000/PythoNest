@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PythoNest - Python版本管理工具</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- 引入Font Awesome图标库 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <div class="logo">
+                    <img src="images/logo.svg" alt="PythoNest Logo" id="logo-img">
+                    <span>PythoNest</span>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#home" class="active">首页</a></li>
+                    <li><a href="#features">功能</a></li>
+                    <li><a href="#download">下载</a></li>
+                    <li><a href="#about">关于</a></li>
+                    <li><a href="https://github.com/dhjs0000/PythoNest" class="github-link" target="_blank"><i class="fab fa-github"></i> GitHub</a></li>
+                </ul>
+                <div class="hamburger">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- 主页面英雄区域 -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>轻松管理您的 Python 环境</h1>
+                <p>PythoNest 是一个功能强大的 Python 版本管理工具，帮助您方便地管理多个 Python 版本、虚拟环境和包。</p>
+                <div class="cta-buttons">
+                    <a href="#download" class="btn primary">立即下载</a>
+                    <a href="#features" class="btn secondary">了解更多</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="images/hero-image.svg" alt="PythoNest 界面预览">
+            </div>
+        </div>
+    </section>
+
+    <!-- 功能介绍区域 -->
+    <section id="features" class="features">
+        <div class="container">
+            <h2 class="section-title">核心功能</h2>
+            <p class="section-description">PythoNest 提供了一系列便捷的功能，简化您的 Python 开发环境管理</p>
+            
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-code-branch"></i>
+                    </div>
+                    <h3>多版本管理</h3>
+                    <p>轻松安装、卸载和管理多个 Python 版本，快速切换当前环境。</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-cubes"></i>
+                    </div>
+                    <h3>虚拟环境管理</h3>
+                    <p>创建、删除和管理虚拟环境，隔离不同项目的依赖。</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-box"></i>
+                    </div>
+                    <h3>包管理</h3>
+                    <p>搜索、安装、更新和删除 PyPI 包，管理依赖版本。</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-desktop"></i>
+                    </div>
+                    <h3>图形界面</h3>
+                    <p>直观的图形用户界面，无需记忆复杂命令行操作。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- 界面展示 -->
+    <section class="showcase">
+        <div class="container">
+            <h2 class="section-title">界面展示</h2>
+            <div class="tabs">
+                <div class="tab-buttons">
+                    <button class="tab-btn active" data-tab="version">版本管理</button>
+                    <button class="tab-btn" data-tab="venv">虚拟环境</button>
+                    <button class="tab-btn" data-tab="package">包管理</button>
+                </div>
+                <div class="tab-content">
+                    <div class="tab-pane active" id="version-tab">
+                        <img src="images/version-tab.svg" alt="版本管理界面">
+                        <div class="tab-description">
+                            <h3>版本管理</h3>
+                            <p>查看已安装的Python版本，安装新版本，并轻松切换默认Python环境。</p>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="venv-tab">
+                        <img src="images/venv-tab.svg" alt="虚拟环境界面">
+                        <div class="tab-description">
+                            <h3>虚拟环境管理</h3>
+                            <p>创建、删除和管理虚拟环境，使用不同Python版本初始化环境。</p>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="package-tab">
+                        <img src="images/package-tab.svg" alt="包管理界面">
+                        <div class="tab-description">
+                            <h3>包管理</h3>
+                            <p>搜索PyPI上的包，安装、升级和卸载包，查看已安装的包。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 下载区域 -->
+    <section id="download" class="download">
+        <div class="container">
+            <h2 class="section-title">下载 PythoNest</h2>
+            <p class="section-description">选择适合您系统的版本进行下载</p>
+            
+            <div class="download-options">
+                <div class="download-card">
+                    <div class="platform-icon">
+                        <i class="fab fa-windows"></i>
+                    </div>
+                    <h3>Windows</h3>
+                    <p>适用于 Windows 10 及更高版本</p>
+                    <a href="#" class="btn primary"><i class="fas fa-download"></i> 下载 Windows 版本</a>
+                </div>
+            </div>
+            
+            <div class="source-download">
+                <h3>源代码</h3>
+                <p>您也可以下载源代码自行构建</p>
+                <a href="https://github.com/dhjs0000/PythoNest" class="btn secondary" target="_blank">
+                    <i class="fab fa-github"></i> 在 GitHub 上查看源码
+                </a>
+            </div>
+        </div>
+    </section>
+    
+    <!-- 安装说明 -->
+    <section class="installation">
+        <div class="container">
+            <h2 class="section-title">安装指南</h2>
+            
+            <div class="install-steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h3>下载安装包</h3>
+                        <p>从上方下载适合您系统的安装包。</p>
+                    </div>
+                </div>
+                
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h3>打开安装包</h3>
+                        <p>双击安装包，按照提示完成安装。</p>
+                    </div>
+                </div>
+                
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h3>启动程序</h3>
+                        <p>双击桌面图标启动 PythoNest。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 关于区域 -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">关于 PythoNest</h2>
+            
+            <div class="about-content">
+                <div class="about-text">
+                    <p>PythoNest 是一个基于 PyQt6 开发的开源 Python 版本管理工具，旨在提供简单、直观的界面帮助用户管理多个 Python 环境。</p>
+                    <p>项目遵循 GNU 通用公共许可证第3版(GPL-3.0)，您可以自由使用、修改和分发本软件。</p>
+                    <p><strong>作者:</strong> dhjs0000</p>
+                    <div class="social-links">
+                        <a href="https://github.com/dhjs0000/PythoNest" target="_blank" class="social-link"><i class="fab fa-github"></i> GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="images/logo.svg" alt="PythoNest Logo">
+                    <span>PythoNest</span>
+                </div>
+                <div class="footer-links">
+                    <h4>导航</h4>
+                    <ul>
+                        <li><a href="https://dhjs0000.github.io/home.html">进入BBYC首页</a></li>
+                        <li><a href="#home">首页</a></li>
+                        <li><a href="#features">功能</a></li>
+                        <li><a href="#download">下载</a></li>
+                        <li><a href="#about">关于</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>资源</h4>
+                    <ul>
+                        <li><a href="https://github.com/dhjs0000/PythoNest" target="_blank">GitHub</a></li>
+                        <li><a href="https://github.com/dhjs0000/PythoNest/issues" target="_blank">问题反馈</a></li>
+                        <li><a href="https://github.com/dhjs0000/PythoNest/wiki" target="_blank">文档</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2023-2025 PythoNest. 基于 <a href="https://www.gnu.org/licenses/gpl-3.0.html" target="_blank">GNU GPL-3.0</a> 许可证开源。</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html> 
