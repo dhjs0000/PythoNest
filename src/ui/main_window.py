@@ -1682,9 +1682,9 @@ class MinorVersionSelectDialog(QDialog):
             # 使用相同的图标
             major, minor = self.major_version.split('.')
             if major == '3' and int(minor) >= 9:
-                item.setIcon(QIcon("website/images/version-tab.svg"))
+                item.setIcon(QIcon("src/ui/images/python_new.svg"))
             else:
-                item.setIcon(QIcon("website/images/version-tab.png"))
+                item.setIcon(QIcon("src/ui/images/python_old.png"))
             
             self.version_list.addItem(item)
         
