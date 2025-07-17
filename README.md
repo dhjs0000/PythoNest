@@ -34,6 +34,25 @@ PythoNest是一个基于PyQt6开发的图形化Python版本管理工具，旨在
    python main.py
    ```
 
+## 生成可执行文件
+
+如果您想将PythoNest打包成Windows可执行文件（.exe），可以按照以下步骤操作：
+
+1. 安装必要的依赖：
+   ```
+   pip install pyinstaller
+   ```
+
+2. 使用提供的打包脚本：
+   ```
+   python build_exe.py
+   ```
+   或直接双击运行`build_exe.bat`批处理文件
+
+3. 打包完成后，可执行文件将保存在`build/YYYYMMDD/PythoNest`文件夹中（YYYYMMDD为打包日期）
+
+4. 运行`PythoNest.exe`或`启动PythoNest.bat`来启动应用程序
+
 ## 系统要求
 
 - Windows 10或更高版本（目前主要支持Windows平台）

@@ -69,4 +69,21 @@ def ensure_dir(directory):
         except:
             logger.error(f"无法创建目录: {directory}")
             return False
-    return True 
+    return True
+
+def get_resource_path(relative_path):
+    """获取资源文件的绝对路径，兼容PyInstaller打包后的程序。
+    
+    Args:
+        relative_path (str): 资源文件的相对路径
+        
+    Returns:
+        str: 资源文件的绝对路径
+    """
+    import os
+    import sys
+    
+    # PyInstaller会创建一个临时文件夹，并将路径存储在sys._MEIPASS中
+    if hasattr(sys, '_MEIPASS'):
+        return os.path.join(sys._MEIPASS, relative_path)
+    return os.path.join(os.path.dirname(os.path.abspath(__file__)), '../..', relative_path) 
