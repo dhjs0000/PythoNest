@@ -87,6 +87,8 @@ class AboutDialog(QDialog):
             <p style='margin-top:20px; color:#333333;'><b>开源协议：</b></p>
             <p style='color:#333333;'>本软件基于GNU通用公共许可证第3版(GPL-3.0)发布</p>
             <p style='color:#333333;'>您可以自由使用、修改和分发本软件，但需要遵守GPL-3.0协议的条款。</p>
+
+            <p> 我们使用了PyQt6,PyQt6采用GPL3.0协议，版权所有Riverbank Computing Ltd</p>
         </div>
         """)
         layout.addWidget(description)
